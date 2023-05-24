@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* LOGO NO HEADER */
+header {
+    height: 200px;
+    width: 450px;
+}
+
+header img {
+    width: 100%;
+}
+
+.block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* BLOCO DE APRESENTAÇÃO DO PRODUTO E IMAGEM */
+.title-product,
+.product-img {
+    height: 450px;
+    width: 700px;
+    margin: 30px 5px;
+}
+
+/* apresentação do produto */
+
+.title-product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-product div {
+    padding: 20px;
+}
+
+.title-product div h1 {
+    font-size: 46px;
+}
+
+.title-product div p {
+    margin-top: 10px;
+}
+
+.btn-comprar {
+    height: 50px;
+    width: 200px;
+    border-radius: 2px;
+    border: none;
+    margin-top: 100px;
+    cursor: pointer;
+    color: white;
+    background-color: #0672CB;
+}
+
+.btn-comprar:hover {
+    height: 50px;
+    width: 200px;
+    border-radius: 2px;
+    border: none;
+    margin-top: 100px;
+    cursor: pointer;
+    color: white;
+    background-color: #075ba0;
+}
+
+/* imagem do notebook */
+.product-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-img img {
+    width: 80%;
+}
