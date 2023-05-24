@@ -11,6 +11,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-image: url("/img/background.jpg");
+    background-attachment: fixed;
 }
 
 /* LOGO NO HEADER */
@@ -39,7 +41,6 @@ header img {
 }
 
 /* apresentação do produto */
-
 .title-product {
     display: flex;
     flex-direction: column;
@@ -59,12 +60,16 @@ header img {
     margin-top: 10px;
 }
 
+.title-product div h4 {
+    margin-top: 150px;
+}
+
 .btn-comprar {
     height: 50px;
     width: 200px;
     border-radius: 2px;
     border: none;
-    margin-top: 100px;
+    margin-top: 10px;
     cursor: pointer;
     color: white;
     background-color: #0672CB;
@@ -90,4 +95,10 @@ header img {
 
 .product-img img {
     width: 80%;
+}
+
+/* segunda apresentação de produtos */
+
+.title-product div h2 {
+    font-size: 42px;
 }
