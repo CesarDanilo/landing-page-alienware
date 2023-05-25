@@ -80,7 +80,7 @@ header img {
     width: 200px;
     border-radius: 2px;
     border: none;
-    margin-top: 100px;
+    margin-top: 10px;
     cursor: pointer;
     color: white;
     background-color: #075ba0;
@@ -101,4 +101,67 @@ header img {
 
 .title-product div h2 {
     font-size: 42px;
+}
+
+/* block video */
+
+.block div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px 0px;
+}
+
+.block product-img iframe {
+    margin-top: 50px;
+}
+
+.block .title-product h4 {
+    font-size: 42px;
+}
+
+.label-comentario {
+    margin-bottom: 50px;
+}
+
+.block-comentarios {
+    display: flex;
+    flex-direction: row;
+}
+
+.block-comentarios .comentario {
+    width: 300px;
+    margin-right: 50px;
+}
+
+.entrar-em-contato {
+    margin-top: 100px;
+}
+
+.entrar-em-contato h4 {
+    margin-bottom: 20px;
+}
+
+.btn-enviar {
+    height: 22px;
+    width: 150px;
+    border-radius: 2px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: #0672CB;
+
+}
+
+footer {
+    margin-top: 100px;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
 }
