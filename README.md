@@ -1,7 +1,11 @@
-# landing-page-alienware
+# Landing page Alienware
+### Tecnologias Usadas
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/5d25d47c-83b0-4b85-9cfa-8dd69227e113/deploy-status)](https://app.netlify.com/sites/stellar-taffy-833c3b/deploys)
+<a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="36" height="36" alt="HTML5" /></a>
+<a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" width="36" height="36" alt="CSS3" /></a>
+<a href="https://dotnet.microsoft.com/en-us/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript.svg" width="36" height="36" alt="JavaScript" /></a>
 
 ![logo](https://github.com/CesarDanilo/landing-page-alienware/blob/master/landing%20page%20alienware/img/screenshot-page/page01.png?raw=true)
 ![logo](https://github.com/CesarDanilo/landing-page-alienware/blob/master/landing%20page%20alienware/img/screenshot-page/page02.png?raw=true)
 ![logo](https://github.com/CesarDanilo/landing-page-alienware/blob/master/landing%20page%20alienware/img/screenshot-page/page03.png?raw=true)
+
