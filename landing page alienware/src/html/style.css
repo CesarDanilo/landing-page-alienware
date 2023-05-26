@@ -45,8 +45,7 @@ header img {
 }
 
 .product-img img:hover,
-.product-img img:focus
-{
+.product-img img:focus {
     width: 100%;
 }
 
@@ -166,6 +165,7 @@ header img {
 
 }
 
+/* RODAPÉ DO SITE */
 footer {
     margin-top: 100px;
 }
@@ -176,4 +176,174 @@ footer div {
     justify-content: center;
     align-items: center;
     margin: 20px;
+}
+
+
+/* PARTE DE RESPONSIVIDADE */
+
+@media (max-width: 414px) {
+
+    /* LOGO NO HEADER */
+    header {
+        height: 50px;
+        width: 250px;
+    }
+
+    header img {
+        width: 100%;
+    }
+
+    .block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    /* BLOCO DE APRESENTAÇÃO DO PRODUTO E IMAGEM */
+    .title-product,
+    .product-img {
+        height: 225px;
+        width: 350px;
+        margin: 5px 5px;
+    }
+
+    .product-img img {
+        transition: 600ms;
+    }
+
+    .product-img img:hover,
+    .product-img img:focus {
+        width: 100%;
+    }
+
+    /* apresentação do produto */
+    .title-product {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title-product div {
+        padding: 20px;
+    }
+
+    .title-product div h1 {
+        font-size: 23px;
+    }
+
+    .title-product div p {
+        margin-top: 5px;
+    }
+
+    .title-product div h4 {
+        margin-top: 75px;
+    }
+
+    .btn-comprar {
+        height: 50px;
+        width: 200px;
+        border-radius: 2px;
+        border: none;
+        margin-top: 10px;
+        cursor: pointer;
+        color: white;
+        transition: 200ms;
+        background-color: #0672CB;
+    }
+
+    .btn-comprar:hover,
+    .btn-comprar:focus {
+        height: 50px;
+        width: 200px;
+        border-radius: 2px;
+        border: none;
+        margin-top: 10px;
+        cursor: pointer;
+        color: white;
+        background-color: #075ba0;
+    }
+
+    /* imagem do notebook */
+    .product-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .product-img img {
+        width: 80%;
+    }
+
+    /* segunda apresentação de produtos */
+
+    .title-product div h2 {
+        font-size: 42px;
+    }
+
+    /* block video */
+
+    .block div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 50px 0px;
+    }
+
+    .block product-img iframe {
+        margin-top: 50px;
+    }
+
+    .block .title-product h4 {
+        font-size: 42px;
+    }
+
+    .label-comentario {
+        margin-bottom: 50px;
+    }
+
+    .block-comentarios {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .block-comentarios .comentario {
+        width: 300px;
+        margin-right: 50px;
+    }
+
+    .entrar-em-contato {
+        margin-top: 100px;
+    }
+
+    .entrar-em-contato h4 {
+        margin-bottom: 20px;
+    }
+
+    .btn-enviar {
+        height: 22px;
+        width: 150px;
+        border-radius: 2px;
+        border: none;
+        margin-top: 10px;
+        cursor: pointer;
+        color: white;
+        background-color: #0672CB;
+
+    }
+
+    /* RODAPÉ DO SITE */
+    footer {
+        margin-top: 100px;
+    }
+
+    footer div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+    }
 }
