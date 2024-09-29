@@ -1,4 +1,5 @@
 import React from "react";
+import LogoGithub from "../../assets/img/icons/github-logo.png"
 
 const Footer = () => {
     return (
@@ -25,6 +26,18 @@ const Footer = () => {
                 <h3 className="text-xl font-semibold mb-2">Heitor</h3>
                 <h4 className="text-lg font-medium mb-2">Excelente máquina! diferenciada!</h4>
                 <p>É simplesmente o melhor laptop da categoria.</p>
+            </div>
+
+
+            <div>
+                <h2 className="text- font-bold mb-4">Created by</h2>
+                <div className="comentario flex bg-white p-4 rounded-lg shadow-md">
+                    <div>
+                        <img src={LogoGithub} alt="LogoGithub" className="h-[25px] mr-3" />
+                    </div>
+                    <p><a href="https://github.com/CesarDanilo/landing-page-alienware" target="_blank">github/CesarDanilo</a></p>
+                </div>
+
             </div>
         </div>
     );
