@@ -1,14 +1,17 @@
-import { useState } from 'react'
 import './App.css'
+import Header from './components/Header'
+import Main from './components/Main'
+import Article from './components/Article'
+import Footer from './components/Footer'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <Header />
+      <Main />
+      <Article />
+      <Footer />
     </>
   )
 }
