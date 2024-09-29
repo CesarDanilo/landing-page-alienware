@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Main from './components/Main'
 import Article from './components/Article'
 import Footer from './components/Footer'
+import NoteBookVideo from './components/NoteBookVideo'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Main />
       <Article />
+      <NoteBookVideo />
       <Footer />
 
     </div>
