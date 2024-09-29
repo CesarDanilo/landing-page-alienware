@@ -19,7 +19,7 @@ Uma landing page minimalista e responsiva desenvolvida para promover um produto.
   <img src="https://img.icons8.com/color/48/000000/tailwindcss.png" alt="Tailwind CSS" />
 </p>
 
-### Link Site: https://landingpagealianware.netlify.app/
+### Link Site: https://landing-page-alienware-bpw8.vercel.app
 
 ![imagem_2024-09-29_124445559](https://github.com/user-attachments/assets/7fdf1097-4c76-4182-aae3-6837a6d9dd64)
 ![imagem_2024-09-29_124622727](https://github.com/user-attachments/assets/9fe5187a-16f6-4853-bef6-1d10a6ea08b8)
