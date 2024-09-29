@@ -26,11 +26,3 @@ Uma landing page minimalista e responsiva desenvolvida para promover um produto.
 ![imagem_2024-09-29_124724327](https://github.com/user-attachments/assets/aa49b5a1-c4d7-4a53-8a06-7bf724ed6138)
 
 
-
-## Como Usar
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
-
-
