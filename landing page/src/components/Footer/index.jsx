@@ -1,5 +1,6 @@
 import React from "react";
-import LogoGithub from "../../assets/img/icons/github-logo.png"
+import LogoGithub from "../../assets/img/icons/github-logo.png";
+import LogoLinkedin from "../../assets/img/icons/linkedin-logo.png";
 
 const Footer = () => {
     return (
@@ -28,14 +29,13 @@ const Footer = () => {
                 <p>É simplesmente o melhor laptop da categoria.</p>
             </div>
 
-
-            <div>
-                <h2 className="text- font-bold mb-4">Created by</h2>
-                <div className="comentario flex bg-white p-4 rounded-lg shadow-md">
-                    <div>
-                        <img src={LogoGithub} alt="LogoGithub" className="h-[25px] mr-3" />
-                    </div>
-                    <p><a href="https://github.com/CesarDanilo/landing-page-alienware" target="_blank">github/CesarDanilo</a></p>
+            <div className="md:col-span-2 lg:col-span-4 items-center justify-center">
+                <h2 className="text-xl font-bold mb-4">Created by</h2>
+                <div className="comentario flex items-center bg-white p-4 rounded-lg shadow-md">
+                    <img src={LogoGithub} alt="LogoGithub" className="h-[25px] mr-3" />
+                    <p><a href="https://github.com/CesarDanilo/landing-page-alienware" target="_blank" className="text-back">github/CesarDanilo</a></p>
+                    <img src={LogoLinkedin} alt="LogoGithub" className="h-[25px] mr-3 ml-10" />
+                    <p><a href="https://www.linkedin.com/in/césar-danilo-396408153" target="_blank" className="text-back">CesarDanilo</a></p>
                 </div>
 
             </div>
