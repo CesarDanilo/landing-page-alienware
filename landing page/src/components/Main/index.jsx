@@ -3,7 +3,7 @@ import alienwareLaptop from '../../assets/img/aw-laptop-m15.avif';
 
 const Main = () => {
     return (
-        <div className="flex flex-col md:flex-row justify-between items-center md:items-start mb-28 space-y-8 md:space-y-0">
+        <div className="flex flex-col md:flex-row justify-between items-center md:items-start space-y-8 md:space-y-0">
             <div className="title-product max-w-md text-center md:text-left">
                 <h1 className="text-3xl font-bold mb-4">Dell Alienware M15 R5</h1>
                 <p className="text-lg mb-4">
