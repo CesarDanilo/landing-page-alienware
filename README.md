@@ -1,6 +1,6 @@
 # Landing Page Alienware
 
-Uma landing page minimalista e responsiva desenvolvida para promover um produto. Esta página foi projetada para fornecer uma experiência de usuário limpa e eficiente, focando na apresentação clara do produto.
+- Uma landing page minimalista e responsiva desenvolvida para promover um produto. Esta página foi projetada para fornecer uma experiência de usuário limpa e eficiente, focando na apresentação clara do produto.
 
 ## Pontos Fortes
 
