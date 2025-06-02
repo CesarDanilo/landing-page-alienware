@@ -10,7 +10,7 @@ const Main = () => {
                     Experimente jogos de alto desempenho com designs icônicos e notebooks projetados com inteligência.
                 </p>
                 <h4 className="text-xl font-semibold mb-6">A partir de R$ 14.599,00</h4>
-                <button className="btn-comprar px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+                <button className="btn-comprar px-6 py-2 bg-blue-900 text-white rounded-lg hover:bg-blue-700">
                     <a href="https://www.dell.com/en-us/shop/dell-laptops/alienware-m15-ryzen-edition-r5-gaming-laptop/spd/alienware-m15-r5-laptop" target="_blank">
                         Comprar Alienware
                     </a>
